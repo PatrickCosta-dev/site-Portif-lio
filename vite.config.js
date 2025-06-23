@@ -190,7 +190,8 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-	customLogger: logger,
+	base: '/Site-Portif-lio--main/'
+        customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin()] : []),
 		react(),
