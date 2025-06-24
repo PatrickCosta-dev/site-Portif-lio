@@ -30,7 +30,7 @@ const Hero = () => {
             className="text-center md:text-left"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Olá, eu sou o <br />
+              Olá, eu sou  <br />
               <span className="text-primary">Patrick Costa</span>
             </h1>
             <p className="mt-4 text-lg md:text-xl text-gray-300">
