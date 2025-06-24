@@ -15,7 +15,7 @@ const Hero = () => {
 
   const handleDownloadCV = () => {
     toast({
-      title: "🚧 Esta funcionalidade ainda não foi implementada—mas não se preocupe! Você pode solicitá-la no seu próximo prompt! 🚀"
+      title: " Esta funcionalidade ainda não foi implementada"
     });
   };
 
