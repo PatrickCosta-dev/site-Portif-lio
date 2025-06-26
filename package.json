@@ -1,5 +1,6 @@
 {
   "name": "web-app",
+  "homepage": "https://patrickcosta-dev.github.io/site-portif-lio/",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -7,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d dist"  
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.0.2",
