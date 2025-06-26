@@ -2,13 +2,13 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Toaster } from '@/components/ui/toaster';
 
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
-import Projects from '@/components/Projects';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
+import Header from '@/components/Header.jsx';
+import Hero from '@/components/Hero.jsx';
+import About from '@/components/About.jsx';
+import Skills from '@/components/Skills.jsx';
+import Projects from '@/components/Projects.jsx';
+import Contact from '@/components/Contact.jsx';
+import Footer from '@/components/Footer.jsx';
 
 import { projects, skills } from '@/data/portfolioData';
 
