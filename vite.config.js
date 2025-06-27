@@ -5,7 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   
-  base: '/site-portif-lio/',
+  base: 'site-Portif-lio',
   
   plugins: [
     
