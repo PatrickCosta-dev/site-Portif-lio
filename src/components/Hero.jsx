@@ -14,8 +14,15 @@ const Hero = () => {
   };
 
   const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/curriculo.pdf';
+    link.download = 'curriculo-patrick-costa.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     toast({
-      title: " Esta funcionalidade ainda não foi implementada"
+      title: "Download iniciado!",
+      description: "currículo está sendo baixado.",
     });
   };
 
