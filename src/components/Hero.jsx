@@ -15,7 +15,7 @@ const Hero = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/curriculo.pdf';
+    link.href = 'curriculo.pdf';
     link.download = 'curriculo.pdf';
     document.body.appendChild(link);
     link.click();
