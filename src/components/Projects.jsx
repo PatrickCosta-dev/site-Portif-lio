@@ -28,7 +28,7 @@ const Projects = ({ projects }) => {
               className="bg-[#1c1c24] rounded-lg overflow-hidden border border-transparent hover:border-primary/50 transition-all duration-300 group"
             >
               <div className="relative overflow-hidden h-48">
-                <img  alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://images.unsplash.com/photo-1572177812156-58036aae439c" />
+                <img  alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="https://pinktiemiami.com/wp-content/uploads/2021/08/coming-soon5.png" />
               </div>
               
               <div className="p-6">
