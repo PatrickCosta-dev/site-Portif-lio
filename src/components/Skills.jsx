@@ -43,7 +43,11 @@ const Skills = ({ skills }) => {
               viewport={{ once: true, amount: 0.5 }}
               className="bg-[#1c1c24] p-6 rounded-lg border border-transparent hover:border-primary transition-colors duration-300 flex flex-col items-center justify-center aspect-square"
             >
-              <skill.icon className="h-12 w-12 text-primary mb-4" />
+              {typeof skill.icon === 'string' ? (
+              <img src={skill.icon} alt={skill.name} className="h-25 w-25 mb-4" />
+                                    ) : (
+                <skill.icon className="h-12 w-12 text-primary mb-4" />
+                                      )} 
               <p className="text-white font-medium text-center">{skill.name}</p>
             </motion.div>
           ))}
