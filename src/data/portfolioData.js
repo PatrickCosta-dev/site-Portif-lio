@@ -15,18 +15,16 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'API Robusta com Node.js e Python',
-    description: 'Desenvolvimento de sistemas backend eficientes, focados em performance, escalabilidade e segurança para aplicações web e móveis.',
-    image: 'Abstract representation of backend API connections and data flow',
-  },
-  {
     title: 'Desenvolvimento Mobile com React Native',
-    description: 'Criação de aplicativos móveis multiplataforma, construindo interfaces de usuário fluidas e ricas em funcionalidades.',
-    image: 'Smartphone screen showing a modern mobile application interface',
+    description: 'Em desenvolvimento',
   },
   {
-    title: 'Infraestrutura como Código (IaC) com AWS',
-    description: 'Implementação de projetos em nuvem utilizando Terraform e CloudFormation para automação, provisionamento e gerenciamento de infraestrutura na AWS.',
-    image: 'Cloud infrastructure diagram with AWS logos and server icons',
+    title: 'Em breve',
+    description: '',
+  },
+  {
+    title: 'Em breve',
+    description: '',
+    
   }
 ];
