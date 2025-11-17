@@ -16,7 +16,7 @@ const About = () => {
             Sobre <span className="text-primary">Mim</span>
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed">
-            Sou Desenvolvedor Full-Stack focado na criação de sistemas de alta performance. Minha especialidade é o desenvolvimento backend com Python e Node.js, e a construção de interfaces com React. Possuo experiência sólida em ambientes de nuvem como AWS e Google Cloud, utilizando ferramentas de infraestrutura como código, incluindo Terraform e CloudFormation. Minhas principais tecnologias são Python, React Native, Node.js, SQL, AWS, N8N e Langchain.
+            Desenvolvedor Full-Stack focado no desenvolvimento backend com Python e C++, AWS, Azure e com experiência complementar em React.
           </p>
         </motion.div>
       </div>
