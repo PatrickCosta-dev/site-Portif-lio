@@ -40,9 +40,9 @@ const Hero = () => {
               <span className="text-primary">Patrick Costa</span>
             </h1>
             <p className="mt-4 text-lg md:text-xl text-gray-300">
-              Desenvolvedor Full-Stack | React.js | Node.js
+              Desenvolvedor Full-Stack | Python | C++ | React
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start"> 
               <Button size="lg" onClick={handleDownloadCV}>Download CV</Button>
               <Button size="lg" variant="outline" onClick={handleContactClick}>Entrar em contato</Button>
             </div>
